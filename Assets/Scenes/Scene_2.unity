@@ -357,7 +357,7 @@ MonoBehaviour:
   sourceMute: 0
   sourcePitch: 1
   sourcePriority: 128
-  sourceSpatialBlend: 1
+  sourceSpatialBlend: 0.5
   sourceDopplerLevel: 1
   sourceSpread: 0
   sourceVolume: 1
@@ -377,8 +377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658c8fd123b7abc4aa54db6bbb8b51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 20
+  speed: 100
+  xRange: 50
   yRange: 4
 --- !u!1 &75417078
 GameObject:
@@ -634,7 +634,7 @@ MonoBehaviour:
   sourceMute: 0
   sourcePitch: 1
   sourcePriority: 128
-  sourceSpatialBlend: 1
+  sourceSpatialBlend: 0.5
   sourceDopplerLevel: 1
   sourceSpread: 0
   sourceVolume: 1
@@ -654,8 +654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658c8fd123b7abc4aa54db6bbb8b51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 20
+  speed: 100
+  xRange: 50
   yRange: 4
 --- !u!1 &178423314
 GameObject:
@@ -743,8 +743,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658c8fd123b7abc4aa54db6bbb8b51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 20
+  speed: 100
+  xRange: 50
   yRange: 4
 --- !u!114 &195653205 stripped
 MonoBehaviour:
@@ -2054,6 +2054,11 @@ Prefab:
       propertyPath: sourceMaxDistance
       value: 5000
       objectReference: {fileID: 0}
+    - target: {fileID: 114218661750679596, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: sourceSpatialBlend
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 114679509480404772, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -3225,8 +3230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658c8fd123b7abc4aa54db6bbb8b51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 20
+  speed: 100
+  xRange: 50
   yRange: 4
 --- !u!4 &755718062 stripped
 Transform:
@@ -6536,6 +6541,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -10.370972
       objectReference: {fileID: 0}
+    - target: {fileID: 114218661750679596, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: sourceSpatialBlend
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114668229688673322, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -6813,6 +6823,11 @@ Prefab:
     - target: {fileID: 436798, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -30.461975
+      objectReference: {fileID: 0}
+    - target: {fileID: 114218661750679596, guid: 1f1d3383012ab4f1cb31dcc37907601a,
+        type: 2}
+      propertyPath: sourceSpatialBlend
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114668229688673322, guid: 1f1d3383012ab4f1cb31dcc37907601a, type: 2}
@@ -8039,8 +8054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658c8fd123b7abc4aa54db6bbb8b51f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 20
+  speed: 100
+  xRange: 50
   yRange: 4
 --- !u!1 &1740885318
 GameObject:

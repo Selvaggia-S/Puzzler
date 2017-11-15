@@ -220,7 +220,9 @@ public class GameLogic : MonoBehaviour
     {
         Debug.Log("Saliendo");
         Application.Quit();
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 
 }
